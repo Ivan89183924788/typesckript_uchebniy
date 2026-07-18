@@ -1,0 +1,94 @@
+.form{
+    border-radius: 0 14px 14px 14px;
+    background-color: white; 
+}
+.mainRow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65px;
+    padding: 0 16px;
+    border-right: 1px solid rgb(210, 210, 210);
+}
+.label{
+    margin-bottom: 8px;
+    color: rgb(210, 210, 210);
+    font-size: 15px;
+}
+.field input,
+.field select{
+    width: 100%;
+    border: none;
+    outline: none;
+   color: black;
+   font-size: 15px;
+   font-weight: 500;
+}
+.field select{
+    cursor: pointer;
+}
+.from{
+    width: 250px;
+}
+.to{
+    width: 250px;
+}
+.date{
+    width: 200px;
+}
+.passengers{
+    width: 200px;
+}
+.travelClass{
+    width: 140px;
+}
+.searchButton{
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(61, 61, 255, 0.924);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.swapButton{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid  rgb(210, 210, 210);
+}
+.swapButton:hover{
+    background-color: rgb(234, 229, 229);
+}
+.bottomRow{
+    padding: 0;
+    border: none;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.bottomRow button{
+    border: none;
+    color: rgb(0, 34, 255);
+}
+.leftButtons button{
+    margin-right: 20px;
+    background-color: white;
+}
+.rightButtons button{
+    margin-left: 20px;
+    background-color: white;
+}
+.rightButtons{
+    margin-right: 280px;
+}
