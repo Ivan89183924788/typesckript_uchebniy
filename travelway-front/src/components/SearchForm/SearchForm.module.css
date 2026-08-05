@@ -1,6 +1,7 @@
+
 .form{
     border-radius: 0 14px 14px 14px;
-    background-color: white; 
+    background-color: rgb(237, 240, 238); 
 }
 .mainRow{
     display: flex;
@@ -18,7 +19,7 @@
 }
 .label{
     margin-bottom: 8px;
-    color: rgb(210, 210, 210);
+    color: rgb(160, 144, 144);
     font-size: 15px;
 }
 .field input,
@@ -40,6 +41,15 @@
     width: 250px;
 }
 .date{
+    width: 200px;
+}
+.time{
+    width: 200px;
+}
+.carrier{
+    width: 200px;
+}
+.transport{
     width: 200px;
 }
 .passengers{
@@ -91,4 +101,8 @@
 }
 .rightButtons{
     margin-right: 280px;
+}
+.searchButton:disabled{
+    background-color: aqua;
+    cursor: not-allowed;
 }

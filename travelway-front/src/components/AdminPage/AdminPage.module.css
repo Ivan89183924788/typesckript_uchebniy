@@ -1,0 +1,700 @@
+/* .page {
+  background-image: url("../../assets/images/poezd3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.heading h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.heading p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.homeLink {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.homeLink a {
+  color: #4538a4;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 1.5px solid #4538a4;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homeLink a:hover {
+  background: #4538a4;
+  color: #fff;
+}
+
+/* Кнопки переключения форм */
+/* .actionButton {
+  padding: 12px 24px;
+  background: #f0f2f5;
+  color: #2c3e50;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.actionButton:hover {
+  background: #e1e4e8;
+}
+
+.actionButton:active {
+  transform: scale(0.98);
+} */
+
+/* Формы */
+/* .form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.field {
+  margin-bottom: 18px;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #4538a4;
+  box-shadow: 0 0 0 3px rgba(69, 56, 164, 0.1);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px; */
+/* } */
+
+/* .halfField {
+  display: contents; чтобы span и input были внутри одной логической ячейки */
+/* } */
+/* 
+.halfField span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+}
+
+.halfField input,
+.halfField select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid gold} */ 
+
+
+  /* AdminPage.module.css */
+
+/* .page {
+  padding: 24px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 32px;
+}
+
+.heading {
+  margin-bottom: 28px;
+}
+
+.heading h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+}
+
+.heading p {
+  color: #666;
+  font-size: 15px;
+  margin: 0;
+}
+
+.homeLink {
+  margin-bottom: 24px;
+}
+
+.homeLink a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.homeLink a:hover {
+  text-decoration: underline;
+}
+
+/* Кнопки действий (Создать поездку / Создать пользователя) */
+/* .actionButton {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.actionButton:hover {
+  border-color: #0d6efd;
+  background-color: #e7f1ff;
+  color: #0d6efd;
+}
+
+.actionButton:active {
+  transform: translateY(1px);
+} */
+
+/* Формы */
+/* .form {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: #2c3e50;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box; /* важно, чтобы padding не ломал ширину */
+/* }
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.1);
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.halfField {
+  flex: 1;
+}
+
+.submitButton {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #0b5ed7;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} */
+
+/* Список бронирований */
+/* .list {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.tripInfo {
+  margin-bottom: 18px;
+}
+
+.bookingNumber {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.tripInfo h2 {
+  font-size: 17px;
+  margin: 0 0 6px 0;
+  color: #212529;
+}
+
+.tripInfo p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.priceBlock span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.payButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+}
+
+.payButton:hover {
+  background-color: #c82333;
+}
+
+.paidNotice {
+  font-size: 13px;
+  color: #2ecc71;
+  font-weight: 600;
+  padding: 6px 10px;
+  background: #e8f5e9;
+  border-radius: 4px;
+  display: inline-block;
+} */
+
+/* Сообщения */
+/* .message {
+  text-align: center;
+  padding: 40px;
+  color: #777;
+  font-size: 15px;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #c62828;
+  font-size: 14px;
+  margin-bottom: 20px;
+} */ 
+
+
+
+
+
+
+
+.page {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 24px;
+}
+
+.heading h1 {
+  margin: 0 0 8px 0;
+  color: #1f2937;
+  font-size: 2rem;
+}
+
+.heading p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.homeLink {
+  margin-bottom: 24px;
+}
+
+.homeLink a {
+  text-decoration: none;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.homeLink a:hover {
+  text-decoration: underline;
+}
+
+/* Кнопки действий (над формами) */
+.actionButton {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.actionButton:hover {
+  background: #2563eb;
+}
+
+.dangerButton {
+  background: #ef4444;
+}
+
+.dangerButton:hover {
+  background: #dc2626;
+}
+
+/* Формы */
+.form {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  margin: 0 0 16px 0;
+  color: #111827;
+  font-size: 1.25rem;
+}
+
+.dangerTitle {
+  color: #b91c1c;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.halfField, .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.halfField span, .field span {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.halfField input, .field input {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.halfField input:focus, .field input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: start;
+  margin-top: 16px;
+}
+
+.submitButton:hover {
+  background: #059669;
+}
+
+.cancelButton {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #9ca3af;
+  color: #374151;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.cancelButton:hover {
+  border-color: #6b7280;
+  color: #111827;
+}
+
+.warningText {
+  color: #b91c1c;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+/* Секции и таблицы */
+.section {
+  margin-top: 32px;
+}
+
+.sectionHeader {
+  margin: 0 0 16px 0;
+  color: #111827;
+  font-size: 1.125rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.table th, .table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  background: #f9fafb;
+  color: #4b5563;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.message {
+  color: #6b7280;
+  font-style: italic;
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Карточки бронирований */
+.list {
+  margin-top: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tripInfo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.bookingNumber {
+  display: block;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.tripInfo h2 {
+  margin: 0 0 8px 0;
+  color: #111827;
+  font-size: 1.25rem;
+}
+
+.tripInfo p {
+  margin: 4px 0;
+  color: #4b5563;
+  font-size: 0.925rem;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 220px;
+  text-align: right;
+}
+
+.priceBlock span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.payButton {
+  padding: 10px 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.payButton:hover {
+  background: #2563eb;
+}
+
+.paidNotice {
+  color: #2ecc71;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Состояния */
+.errorContainer {
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  color: #92400e;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.errorContainer a {
+  color: #ea580c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  font-size: 1rem;
+}

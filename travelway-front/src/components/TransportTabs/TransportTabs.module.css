@@ -1,19 +1,1 @@
-.tabs{
-    display: flex;
-    align-items: flex-end;
-}
-.tab{
-    min-width:180px;
-    padding: 16px 24px;
-    background-color: azure;
-    color: rgb(159, 151, 141);
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 12px 12px 0 0;
 
-}
-.active{
-    background-color: rgb(79, 79, 199);
-    color: white;
-
-}

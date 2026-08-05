@@ -1,3 +1,4 @@
+import { BookingPage } from "../BookingPage/BookingPage"
 import { SearchForm } from "../SearchForm/SearchForm"
 import { TransportTabs } from "../TransportTabs/TransporrtTabs"
 import styles from "./Hero.module.css"
@@ -20,6 +21,7 @@ export function Hero(){
                 <div className={styles.searchBlock}>
                     <TransportTabs/>
                     <SearchForm/>
+                    
                 </div>
                 
             </div>
